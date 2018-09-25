@@ -8,7 +8,7 @@
 #include <linux/version.h>
 
 #define SOFT_UART_MAJOR            0
-#define N_PORTS                    1
+#define N_PORTS                    2
 #define NONE                       0
 #define TX_BUFFER_FLUSH_TIMEOUT 4000  // milliseconds
 
@@ -112,7 +112,7 @@ static int __init soft_uart_init(void)
   // Initializes the driver.
   soft_uart_driver->owner                 = THIS_MODULE;
   soft_uart_driver->driver_name           = "soft_uart";
-  soft_uart_driver->name                  = "ttySOFT";
+  soft_uart_driver->name                  = "ttyCODI";
   soft_uart_driver->major                 = SOFT_UART_MAJOR;
   soft_uart_driver->minor_start           = 0;
   soft_uart_driver->flags                 = TTY_DRIVER_REAL_RAW;

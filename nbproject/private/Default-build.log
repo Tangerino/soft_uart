@@ -1,0 +1,12 @@
+/usr/bin/make -C /usr/src/linux-headers-4.15.0-33-generic M=/home/dev/Desktop/uEDGE/soft_uart modules
+make[1]: Entering directory '/usr/src/linux-headers-4.15.0-33-generic'
+Makefile:976: "Cannot use CONFIG_STACK_VALIDATION=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel"
+  CC [M]  /home/dev/Desktop/uEDGE/soft_uart/module.o
+  CC [M]  /home/dev/Desktop/uEDGE/soft_uart/raspberry_soft_uart.o
+  CC [M]  /home/dev/Desktop/uEDGE/soft_uart/queue.o
+  LD [M]  /home/dev/Desktop/uEDGE/soft_uart/soft_uart.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/dev/Desktop/uEDGE/soft_uart/soft_uart.mod.o
+  LD [M]  /home/dev/Desktop/uEDGE/soft_uart/soft_uart.ko
+make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-33-generic'
