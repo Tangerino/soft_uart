@@ -8,7 +8,7 @@
 #include <linux/version.h>
 
 #define SOFT_UART_MAJOR            0
-#define N_PORTS                    2
+#define N_PORTS                    1
 #define NONE                       0
 #define TX_BUFFER_FLUSH_TIMEOUT 4000  // milliseconds
 
